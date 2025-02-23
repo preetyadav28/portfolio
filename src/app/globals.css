@@ -2,20 +2,58 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
+body,
+html {
+   box-sizing: border-box;
+   margin: 0;
+   padding: 0;
+   font-family: var(--font-montserrat, sans-serif);
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+/* Hover underline animation - dark */
+.hover-underline-animation {
+   display: inline-block;
+   position: relative;
 }
 
-body {
-  color: var(--foreground);
-  background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
+.hover-underline-animation:after {
+   content: "";
+   position: absolute;
+   width: 100%;
+   transform: scaleX(0);
+   height: 2px;
+   bottom: 0;
+   left: 0;
+   background-color: #f5f5f5;
+   transform-origin: bottom right;
+   transition: transform 0.25s ease-out;
+}
+
+.hover-underline-animation:hover:after {
+   transform: scaleX(1);
+   transform-origin: bottom left;
+}
+
+/* Hover underline animation - white */
+.hover-underline-animation-white {
+   display: inline-block;
+   position: relative;
+}
+
+.hover-underline-animation-white:after {
+   content: "";
+   position: absolute;
+   width: 100%;
+   transform: scaleX(0);
+   height: 2px;
+   bottom: 0;
+   left: 0;
+   background-color: #d1d5db;
+   transform-origin: bottom right;
+   transition: transform 0.25s ease-out;
+}
+
+.hover-underline-animation-white:hover:after {
+   transform: scaleX(1);
+   transform-origin: bottom left;
 }
