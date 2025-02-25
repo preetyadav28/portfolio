@@ -1,8 +1,8 @@
 export default function Experience() {
    return (
-      <main className="flex pl-10 w-screen flex-col gap-16 justify-around md:flex-row md:gap-32 md:pl-24 relative z-10">
+      <main className="flex pl-10 pr-10 w-screen flex-col gap-16 justify-around md:flex-row md:gap-32 md:pl-24 md:pr-0 relative z-10 overflow-auto md:overflow-hidden">
          <aside
-            className="opacity-0 flex-1 bottom-24 self-end space-y-3 sticky z-10"
+            className="opacity-0 flex-1 bottom-24 self-end space-y-3 z-10 pt-40"
             id="info"
             style={{ opacity: 1, transform: "translateY(0px)" }}
          >
@@ -24,21 +24,17 @@ export default function Experience() {
             </p>
          </aside>
          <article
-            // className="opacity-0 flex-1 font-prata md:space-y-10 space-y-5"
             className="opacity-0 flex-1 font-prata md:space-y-10 space-y-5 
-                       h-[90vh] overflow-y-auto scrollbar-thin scrollbar-track-gray-200 
-                       scrollbar-thumb-gray-500 overflow-x-hidden p-10"
+                        h-[90vh] overflow-y-auto scrollbar-thin scrollbar-track-gray-200 
+                        scrollbar-thumb-gray-500 overflow-x-hidden pt-10 md:py-10 md:pb-10 "
             id="links"
             style={{ opacity: 1 }}
          >
             <div>
-               <a
-                  className="block duration-500 ease-out hover:-skew-x-12 hover:translate-x-10 leading-[0.95em] md:text-[5vw] text-[12vw] transition-all uppercase"
-                  href="/experience/getinsured"
-               >
+               <a className="block duration-500 ease-out hover:-skew-x-12 hover:translate-x-10 leading-[0.95em] md:text-[5vw] text-[10vw] transition-all uppercase">
                   <h2>Get Insured</h2>
                </a>
-               <p className="text-xs font-sans inline md:text-xl pl-5">
+               <p className="text-xl font-montserrat inline pl-5">
                   - Platform dedicated to help Americans easily find affordable
                   health insurance. They are the leading provider for
                   state-based marketplace technology with more experience than
@@ -51,13 +47,10 @@ export default function Experience() {
                </p>
             </div>
             <div>
-               <a
-                  className="block duration-500 ease-out hover:-skew-x-12 hover:translate-x-10 leading-[0.95em] md:text-[5vw] text-[12vw] transition-all uppercase"
-                  href="/experience/mayamd"
-               >
+               <a className="block duration-500 ease-out hover:-skew-x-12 hover:translate-x-10 leading-[0.95em] md:text-[5vw] text-[10vw] transition-all uppercase">
                   <h2>Maya MD</h2>
                </a>
-               <p className="text-xs font-sans inline md:text-xl pl-5">
+               <p className="text-xl font-montserrat inline pl-5">
                   - Virtual care solution which gives patients on-demand symptom
                   assessments, guides them to the right care, and gives them
                   engaging tools to manage their health better. The idea behind
@@ -76,13 +69,10 @@ export default function Experience() {
                </p>
             </div>
             <div>
-               <a
-                  className="block duration-500 ease-out hover:-skew-x-12 hover:translate-x-10 leading-[0.95em] md:text-[5vw] text-[12vw] transition-all uppercase"
-                  href="/experience/dopedoctors"
-               >
+               <a className="block duration-500 ease-out hover:-skew-x-12 hover:translate-x-10 leading-[0.95em] md:text-[5vw] text-[10vw] transition-all uppercase">
                   <h2>Dope Doctors</h2>
                </a>
-               <p className="text-xs font-sans inline md:text-xl pl-5">
+               <p className="text-xl font-montserrat inline pl-5">
                   - A robust telehealth platform tailored for healthcare
                   providers, enabling them to configure and offer a variety of
                   dynamic services to patients. The platform allows patients to
@@ -99,13 +89,10 @@ export default function Experience() {
                </p>
             </div>
             <div>
-               <a
-                  className="block duration-500 ease-out hover:-skew-x-12 hover:translate-x-10 leading-[0.95em] md:text-[5vw] text-[12vw] transition-all uppercase"
-                  href="/experience/autochek"
-               >
+               <a className="block duration-500 ease-out hover:-skew-x-12 hover:translate-x-10 leading-[0.95em] md:text-[5vw] text-[10vw] transition-all uppercase">
                   <h2>AutoChek</h2>
                </a>
-               <p className="text-xs font-sans inline md:text-xl pl-5">
+               <p className="text-xl font-montserrat inline pl-5">
                   - Web app designed for buying and selling cars, with a focus
                   on the Nigerian market. It offers a unique feature where end
                   users who lack sufficient funds can apply for a loan, with
@@ -115,13 +102,10 @@ export default function Experience() {
                </p>
             </div>
             <div>
-               <a
-                  className="block duration-500 ease-out hover:-skew-x-12 hover:translate-x-10 leading-[0.95em] md:text-[5vw] text-[12vw] transition-all uppercase"
-                  href="/experience/gpsenergia"
-               >
+               <a className="block duration-500 ease-out hover:-skew-x-12 hover:translate-x-10 leading-[0.95em] md:text-[5vw] text-[10vw] transition-all uppercase">
                   <h2>GPS Energia</h2>
                </a>
-               <p className="text-xs font-sans inline md:text-xl pl-5">
+               <p className="text-xl font-montserrat inline pl-5">
                   - This Admin Web Portal is a comprehensive power management
                   application designed to oversee various aspects of energy
                   distribution and consumption. It tracks distributed

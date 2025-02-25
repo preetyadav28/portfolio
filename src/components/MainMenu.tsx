@@ -18,9 +18,7 @@ export default function MainMenu() {
             <h1 className="font-semibold text-6xl tracking-widest">
                Preet Deeva
             </h1>
-            <p className="text-2xl">
-               Web Designer &amp; Developer / Marketing Strategist
-            </p>
+            <p className="text-2xl">Web Developer</p>
             <p className="text-xl">
                I bring a unique blend of passion and proficiency to development
                and design. Obsessed with performance and dedicated to crafting
@@ -91,7 +89,8 @@ export default function MainMenu() {
             </div>
          </div>
          <div
-            className="opacity-0 [&amp;>a]:block [&amp;>a]:cursor-pointer [&amp;>a]:text-[16vw] font-prata md:[&amp;>a]:text-[10vw]"
+            className="flex flex-col flex-1 w-full justify-center opacity-0 [&>a]:block [&>a]:cursor-pointer [&>a]:text-[10vw] font-prata 
+             md:[&>a]:text-[10vw] lg:[&>a]:text-[10vw] xl:[&>a]:text-[10vw]"
             id="links"
             style={{ opacity: 1 }}
          >

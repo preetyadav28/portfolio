@@ -13,7 +13,7 @@ export default {
             foreground: "var(--foreground)",
             primary: "#000000", // Black
             secondary: "#F5F5F5", // Cool White
-            red: "#aa44aa",
+            hover: "#2c3437",
          },
          fontFamily: {
             montserrat: ["Montserrat", "sans-serif"],
