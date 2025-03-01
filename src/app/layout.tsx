@@ -27,6 +27,7 @@ export default function RootLayout({
 }>) {
    const pathname = usePathname();
    const [isHomePage, setIsHomePage] = useState<boolean | null>(null);
+   console.log("🚀 ~ isHomePage:", isHomePage);
 
    useEffect(() => {
       setIsHomePage(pathname === "/");

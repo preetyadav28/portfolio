@@ -1,6 +1,6 @@
 export default function Experience() {
    return (
-      <main className="flex pl-10 pr-10 w-screen flex-col gap-16 justify-around md:flex-row md:gap-32 md:pl-24 md:pr-0 relative z-10 overflow-auto md:overflow-hidden">
+      <main className="flex pl-10 pr-10 w-screen flex-col gap-16 justify-around md:flex-row md:gap-32 md:pl-24 md:pr-0 relative z-10 overflow-auto">
          <aside
             className="opacity-0 flex-1 bottom-24 self-end space-y-3 z-10 pt-40"
             id="info"
@@ -25,8 +25,8 @@ export default function Experience() {
          </aside>
          <article
             className="opacity-0 flex-1 font-prata md:space-y-10 space-y-5 
-                        h-[90vh] overflow-y-auto scrollbar-thin scrollbar-track-gray-200 
-                        scrollbar-thumb-gray-500 overflow-x-hidden pt-10 md:py-10 md:pb-10 "
+                        h-[90vh] md:overflow-auto scrollbar-thin scrollbar-track-gray-200 
+                        scrollbar-thumb-gray-500 pt-10 md:py-10 md:pb-10 "
             id="links"
             style={{ opacity: 1 }}
          >

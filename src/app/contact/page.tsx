@@ -20,7 +20,7 @@ export default function Contact() {
                <p className="text-2xl">
                   Email:{" "}
                   <a
-                     className="hover-underline-animation-widget"
+                     className="hover-underline-animation-black"
                      href="mailto:yadavpreet1@gmail.com"
                   >
                      yadavpreet81@gmail.com
@@ -29,7 +29,7 @@ export default function Contact() {
                <p className="text-2xl">
                   Phone:{" "}
                   <a
-                     className="hover-underline-animation-widget"
+                     className="hover-underline-animation-black"
                      href="tel:+919821465833"
                   >
                      +91 98214 65833
@@ -38,7 +38,7 @@ export default function Contact() {
                <p className="text-2xl">
                   LinkedIn:{" "}
                   <a
-                     className="hover-underline-animation-widget"
+                     className="hover-underline-animation-black"
                      href="https://www.linkedin.com/in/preet-deeva-a230321aa/"
                   >
                      preet-deeva-a230321aa/

@@ -132,8 +132,8 @@ const Skills = () => {
    ];
    const categories = ["Frontend", "DevOps", "Software"];
    return (
-      <main className="flex pl-10 pr-10 w-screen flex-col gap-16 items-center justify-around md:gap-32 md:pl-24 md:pr-0 relative z-10 overflow-y-auto mt-20 overflow-x-hidden">
-         <div className="flex gap-20 bg-primary text-secondary p-2 rounded-full text-xl shadow-[0px_0px_20px_5px_theme('colors.secondary/50%'),0px_0px_40px_10px_theme('colors.secondary/30%')] border border-hover">
+      <main className="flex pl-10 pr-10 w-screen flex-col gap-8 items-center justify-around md:gap-16 md:pl-24 md:pr-0 relative z-10 overflow-y-auto overflow-x-hidden">
+         <div className="flex w-full md:w-auto md:gap-20 mt-24 md:mt-0 bg-primary text-secondary p-2 rounded-full text-xl shadow-[0px_0px_20px_5px_theme('colors.secondary/50%'),0px_0px_40px_10px_theme('colors.secondary/30%')] border border-hover">
             {categories.map((item) => {
                return (
                   <button
@@ -161,7 +161,7 @@ const Skills = () => {
                   } `}
                >
                   <img
-                     className={"w-48 md:w-24"}
+                     className={"max-w-12 md:w-12"}
                      title={id}
                      src={source}
                      alt={id}

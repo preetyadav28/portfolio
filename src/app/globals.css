@@ -35,12 +35,12 @@ html {
 }
 
 /* Hover underline animation - white */
-.hover-underline-animation-white {
+.hover-underline-animation-black {
    display: inline-block;
    position: relative;
 }
 
-.hover-underline-animation-white:after {
+.hover-underline-animation-black:after {
    content: "";
    position: absolute;
    width: 100%;
@@ -48,12 +48,12 @@ html {
    height: 2px;
    bottom: 0;
    left: 0;
-   background-color: #d1d5db;
+   background-color: #000000;
    transform-origin: bottom right;
    transition: transform 0.25s ease-out;
 }
 
-.hover-underline-animation-white:hover:after {
+.hover-underline-animation-black:hover:after {
    transform: scaleX(1);
    transform-origin: bottom left;
 }

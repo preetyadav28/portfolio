@@ -2,6 +2,7 @@
 import { FaLinkedin } from "react-icons/fa";
 import tailwindConfig from "../../tailwind.config";
 import resolveConfig from "tailwindcss/resolveConfig";
+import Typewriter from "typewriter-effect";
 
 const fullConfig = resolveConfig(tailwindConfig);
 const secondaryColor = fullConfig.theme.colors.secondary;
@@ -9,16 +10,29 @@ const encodedColor = secondaryColor.replace("#", "");
 
 export default function MainMenu() {
    return (
-      <div className="flex items-center flex-col gap-16 h-full md:flex-row md:gap-32 md:justify-around md:mt-0   group md:[&>a]:text-[10vw]">
+      <div className="flex items-center flex-col gap-16 h-full overflow-visible md:flex-row md:gap-32 md:justify-around md:mt-0 group md:[&>a]:text-[10vw]">
          <div
             className="opacity-0 self-end space-y-3"
             id="info"
             style={{ opacity: 1, transform: "translateY(0px)" }}
          >
-            <h1 className="font-semibold text-6xl tracking-widest">
+            <h1 className="font-semibold text-4xl tracking-widest">
                Preet Deeva
             </h1>
-            <p className="text-2xl">Web Developer</p>
+            <Typewriter
+               options={{
+                  strings: [
+                     "Frontend Developer",
+                     "Building Scalable UIs with React & Nx",
+                     "Crafting Interactive Web Experiences",
+                  ],
+                  wrapperClassName: "text-xl",
+                  autoStart: true,
+                  loop: true,
+                  cursor: "_",
+               }}
+            />
+            {/* <p className="text-2xl">Web Developer</p> */}
             <p className="text-xl">
                I bring a unique blend of passion and proficiency to development
                and design. Obsessed with performance and dedicated to crafting
