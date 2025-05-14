@@ -45,15 +45,15 @@ export default function MainMenu() {
                   <li>
                      <a
                         className="group"
-                        href="https://github.com/N4N1T0"
+                        href="mailto:yadavpreet81@gmail.com"
                         target="_blank"
                      >
                         <img
-                           alt="GitHub"
+                           alt="Mail"
                            className="transition-all duration-200 ease-in-out hover:opacity-70 hover:scale-110"
                            height="28"
                            src={`https://cdn.simpleicons.org/gmail/${encodedColor}`}
-                           title="GitHub"
+                           title="Mail"
                            width="28"
                         />
                      </a>
@@ -61,7 +61,7 @@ export default function MainMenu() {
                   <li>
                      <a
                         className="group"
-                        href="https://www.instagram.com/_preet_yadav_/"
+                        href="tel:+919821465833"
                         target="_blank"
                      >
                         <img
@@ -93,7 +93,7 @@ export default function MainMenu() {
                   <li>
                      <a
                         className="group"
-                        href="https://www.instagram.com/_preet_yadav_/"
+                        href="https://www.linkedin.com/in/preet-deeva-a230321aa"
                         target="_blank"
                      >
                         <FaLinkedin className="text-secondary text-3xl hover:opacity-70 h-8 w-8" />

@@ -33,15 +33,15 @@ export default function About() {
 
                <p className="pb-4 font-montserrat">Hi👋 I am Preet.</p>
                <p className="pb-4 text-justify font-montserrat">
-                  I am a Frontend Engineer with 4 years of experience in React
-                  JS,JavaScript and Typescript. I have successfully build
+                  I am a Frontend Engineer with nearly 4 years of experience in React
+                  JS, JavaScript and Typescript. I have successfully build
                   scalable and efficient web applications. My focus is on
                   quality, efficiency, and adherence to industry best practices.
                   Key strengths include:
                </p>
                <ul className="list-disc pl-5 space-y-2 text-justify font-montserrat">
                   <li>
-                     <strong>3.5+ years</strong> of experience in front-end
+                     <strong>3.8+ years</strong> of experience in front-end
                      development with <strong>React.js</strong> and{" "}
                      <strong>TypeScript</strong>.
                   </li>
@@ -75,8 +75,9 @@ export default function About() {
                      Familiar with modern build tools like Vite and Webpack.
                   </li>
                   <li>
+                        Just started exploring{" "}
                      <strong>
-                        Just started exploring Next.js and Tailwind CSS
+                        Next.js, Tailwind CSS, Vue, Vuex and Vuetify
                      </strong>{" "}
                      to enhance performance and styling efficiency.
                   </li>
