@@ -50,7 +50,7 @@ export default function Contact() {
                   target="_blank"
                   download
                >
-                  Download my CV
+                  Download Resume
                </a>
             </div>
          </div>

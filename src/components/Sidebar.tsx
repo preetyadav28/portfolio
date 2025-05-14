@@ -6,7 +6,7 @@ export default function Sidebar({ isHomePage }: SidebarProps) {
    if (isHomePage === null) return null;
    return (
       <aside
-         className={`flex items-center ${
+         className={`hidden md:flex items-center ${
             isHomePage
                ? "bg-primary text-secondary"
                : "bg-secondary text-primary"
