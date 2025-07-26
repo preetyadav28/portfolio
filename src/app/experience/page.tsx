@@ -10,8 +10,8 @@ export default function Experience() {
                Daffodil Software
             </h1>
             <div className="flex justify-between">
-               <p className="text-2xl">Associate - Software Engineering</p>
-               <p className="text-2xl">Aug 2021 - Present</p>
+               <p className="text-xl">Sr. Associate - Software Engineering</p>
+               <p className="text-xl">Aug 2021 - Present</p>
             </div>
             <p className="text-xl">
                Led end-to-end development across the SDLC, ensuring on-time
@@ -48,6 +48,14 @@ export default function Experience() {
             </div>
             <div>
                <a className="block duration-500 ease-out hover:-skew-x-12 hover:translate-x-10 leading-[0.95em] md:text-[5vw] text-[10vw] transition-all uppercase">
+                  <h2>Manaze</h2>
+               </a>
+               <p className="text-xl font-montserrat inline pl-5">
+                  - In house product that is used to manage employees' details such as Attendance Monitoring, Task Assignment, Payroll Calculations, Tax Compliance, Assets Management, Platform to raise service tickets, manage organizational expenses and costs etc.
+               </p>
+            </div>
+            {/* <div>
+               <a className="block duration-500 ease-out hover:-skew-x-12 hover:translate-x-10 leading-[0.95em] md:text-[5vw] text-[10vw] transition-all uppercase">
                   <h2>Maya MD</h2>
                </a>
                <p className="text-xl font-montserrat inline pl-5">
@@ -67,7 +75,7 @@ export default function Experience() {
                   patient monitoring. It enables the staff to communicate with
                   the patients over chat as well as video call.
                </p>
-            </div>
+            </div> */}
             <div>
                <a className="block duration-500 ease-out hover:-skew-x-12 hover:translate-x-10 leading-[0.95em] md:text-[5vw] text-[10vw] transition-all uppercase">
                   <h2>Dope Doctors</h2>
@@ -101,7 +109,7 @@ export default function Experience() {
                   to users.
                </p>
             </div>
-            <div>
+            {/* <div>
                <a className="block duration-500 ease-out hover:-skew-x-12 hover:translate-x-10 leading-[0.95em] md:text-[5vw] text-[10vw] transition-all uppercase">
                   <h2>GPS Energia</h2>
                </a>
@@ -117,7 +125,7 @@ export default function Experience() {
                   management of user contracts within the GPS Energy app,
                   streamlining energy management processes.
                </p>
-            </div>
+            </div> */}
          </article>
       </main>
    );
