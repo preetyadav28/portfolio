@@ -51,7 +51,7 @@ export default function Experience() {
                   <h2>Manaze</h2>
                </a>
                <p className="text-xl font-montserrat inline pl-5">
-                  - In house product that is used to manage employees' details such as Attendance Monitoring, Task Assignment, Payroll Calculations, Tax Compliance, Assets Management, Platform to raise service tickets, manage organizational expenses and costs etc.
+                  - In house product that is used to manage employee details such as Attendance Monitoring, Task Assignment, Payroll Calculations, Tax Compliance, Assets Management, Platform to raise service tickets, manage organizational expenses and costs etc.
                </p>
             </div>
             {/* <div>
